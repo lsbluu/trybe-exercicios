@@ -64,3 +64,29 @@
     position: absolute;
 }
 
+
+h1,p{
+    text-align: center;
+    color: coral;
+}
+
+li:hover{
+  
+    background-color: cadetblue;
+}
+
+li:active{
+    color: chartreuse;
+    }
+
+ol, ul{
+    list-style: none
+}
+
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
