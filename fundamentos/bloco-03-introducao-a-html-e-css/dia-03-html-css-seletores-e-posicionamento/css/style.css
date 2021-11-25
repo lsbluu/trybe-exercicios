@@ -1,0 +1,126 @@
+.caixa {
+    color: white;
+    display: inline-block;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.width-and-height{
+    height: 50px;
+    width: 50px;
+}
+
+.padding{
+    padding: 20px;
+}
+
+.margin{
+    margin: 30px;
+}
+
+.border{
+    border: 5px solid black;
+}
+
+
+
+.super-mario{
+    width: 200px;
+    position: absolute;
+    top: 100px;
+}
+
+
+.goomba{
+    width: 100px;
+    position: absolute;
+    top: 400px;
+    left: 150px;
+    
+}
+
+.baloon{
+    transform: rotateY(180deg);
+    left: 500px;
+    position: absolute;
+    width: 300px;
+       
+}
+
+.speach{
+    font-size: 25px;
+    position: absolute;
+    color: black;
+    z-index: 1;
+    top: 100px;
+    left: 540px;
+}
+
+.bowser{
+    width: 200px;;
+    left: 350px;
+    top: 300px;
+    position: absolute;
+}
+
+
+h1,p{
+    text-align: center;
+    color: coral;
+}
+
+li:hover{
+  
+    background-color: cadetblue;
+}
+
+li:active{
+    color: chartreuse;
+    }
+
+ol, ul{
+    list-style: none
+}
+
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+div:hover{
+    border: 1px solid black;
+}
+
+div:nth-of-type(1){
+    background-color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div:nth-of-type(2){
+    background-color: yellow;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+div:nth-of-type(3){
+    background-color: aquamarine;
+    height: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div:nth-of-type(4){
+    background-color: coral;
+    font-family: cursive;
+}
+
+div:nth-of-type(5){
+    background-color: blueviolet;
+    font-family: monospaceS;
+}
+
+div:nth-of-type(2n+1){
+    font-style: italic;
+}
+
