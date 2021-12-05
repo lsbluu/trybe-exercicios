@@ -1,4 +1,8 @@
-let nota = 60;
+let nota = 600;
+
+if (nota <0 || nota > 100){
+    console.log("Nota menor que 0 ou maior que 100");
+   }else{
 
 if (nota >= 90){
     console.log("Nota A");
@@ -12,4 +16,6 @@ if (nota >= 90){
     console.log("Nota E");
 } else if(nota < 50){
     console.log("Nota F");
+} 
+
 }
