@@ -1,14 +1,9 @@
-const valor = "negatdivo";
+const valor = -50;
 
-switch (valor){
-    case "positivo":
-        console.log("positive");
-        break;
-    case "negativo":
-        console.log("negative");
-        break;
-    default:
-        console.log("0")
-        break;
-
+if (valor < 0){
+    console.log("negativo")
+} else if(valor >=1){
+    console.log("positivo")
+} else{
+    console.log(0);
 }
