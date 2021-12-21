@@ -9,8 +9,6 @@ let names = {
       console.log("Olá", names[value]);
   }
 
-
-
   let car = {
     model: 'A3 Sedan',
     manufacturer: 'Audi',
