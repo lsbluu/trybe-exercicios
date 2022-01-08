@@ -1,4 +1,26 @@
-console.log(document.getElementById("elementoOndeVoceEsta"))
+let filhos = document.getElementById('pai');
+let filhosDoFilho = document.getElementById('elementoOndeVoceEsta');
+
+
+
+filhos.removeChild(primeiroFilho)
+filhos.removeChild(terceiroFilho)
+filhos.removeChild(quartoEUltimoFilho)
+filhosDoFilho.removeChild(segundoEUltimoFilhoDoFilho)
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*console.log(document.getElementById("elementoOndeVoceEsta"))
 console.log(document.getElementById("elementoOndeVoceEsta").parentNode.style.color = "blue")
 console.log(document.getElementById("primeiroFilhoDoFilho").innerHTML = "Primeiro Filho")
 console.log(document.getElementById("pai").firstElementChild)
@@ -42,3 +64,6 @@ let novoElemento = document.createElement('section')
 novoElemento.setAttribute('id','filhoDoPrimeiro')
 filhoPrimeiroFilho.appendChild(novoElemento)
 }
+
+
+
