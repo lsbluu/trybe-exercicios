@@ -1,0 +1,22 @@
+#curriculo{
+    justify-content: center;
+    background-color: aquamarine;
+    display: flex;
+}
+
+#form1{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#form2{
+    display: flex;
+    flex-direction: column;
+}
+
+#btn{
+    display: flex;
+    flex-direction: column;
+    align-self:center;
+}
