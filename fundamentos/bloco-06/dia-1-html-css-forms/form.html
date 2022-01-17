@@ -19,17 +19,19 @@
             <label for="end">Endereço</label>        
         <input type="text" id="end" required maxlength="28" name="endereco">
         <label for="estados">Estado</label>
-        <select name="uf"  required id="estados">
-          </select>
+        
+        <select name="uf" required id="estados"></select>
+        
+        <div class="moradia">
+            <input type="radio" required id="ap" value="ap" name="moradia">
+            <label for="ap">AP</label>
 
-          <div class="moradia">
-                            <label for="">Moradia</label>
-            <input type="radio" required id="AP" value="ap" name="moradia">
-            <label for="AP">AP</label>
-
-            <input type="radio" required id="casa" value="moradia" name="moradia">
+            <input type="radio" required id="casa" value="casa" name="moradia">
             <label for="casa">Casa</label>
         </div>
+
+               
+
     </fieldset>
 
         <fieldset id="form2">
@@ -44,9 +46,11 @@
     </fieldset>
     <div id="btn">
     <button type="reset">Limpar</button>
-    <button type="submit" value="submit">Enviar</button>
+    <button type="submit" id="enviar" value="submit">Enviar</button>
 </div>
 </form>
+
+<div id="show"></div>
     <script src="script.js"></script>
 </body>
 </html>

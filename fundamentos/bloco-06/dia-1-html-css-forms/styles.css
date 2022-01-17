@@ -20,3 +20,9 @@
     flex-direction: column;
     align-self:center;
 }
+
+.moradia{
+    display: flex;
+    flex-direction: row-reverse;
+
+}
