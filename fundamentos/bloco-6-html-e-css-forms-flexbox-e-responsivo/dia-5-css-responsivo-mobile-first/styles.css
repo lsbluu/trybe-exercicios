@@ -1,0 +1,65 @@
+ html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+  margin: 10px;
+  }
+  
+  article {
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+  text-align: justify;
+  margin: 0px 5px;;
+  background-color: whitesmoke;
+  }
+  
+  h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5em;
+  }
+  
+  h2 {
+  
+  }
+  
+  img {
+      max-width: 100%;
+  }
+  
+  main {
+  background-color:  whitesmoke;
+  }
+  
+  section {
+  display: flex;
+  flex-flow: column wrap;
+  }
+  
+  figure {
+      margin: 100px 0px;
+  }
+  
+  figcaption {
+    font-size: .8em;
+  }
+
+
+  @media screen and (min-width:600px) {
+    section {
+        display: flex;
+        flex-flow: row ;
+        margin: 0px 10px;
+        }
+        figure {
+            margin: 0px 10px;
+        }
+
+    
+  }
