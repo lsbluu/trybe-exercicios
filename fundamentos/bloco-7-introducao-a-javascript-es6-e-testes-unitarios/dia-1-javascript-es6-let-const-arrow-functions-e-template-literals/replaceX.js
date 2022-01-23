@@ -1,9 +1,10 @@
+const skills = ['HTML','JavaScript','CSS'];
+
 function replaceX(str, frase){
 let string = frase;
 let replaced = string.replace(/x/gi, str);
-
-console.log(replaced);
+skills.sort();
+ 
+console.log(`${replaced}! Minhas principais habilidade são ${ skills } ` ); 
 }
-
-
-replaceX('pet',"Tryber x aqui!" );
+replaceX('beto', "Tryber x aqui!");
