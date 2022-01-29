@@ -1,9 +1,8 @@
-const wakeUp = () => "Acordando";
+const acordar = () => 'Acordando!!!';
+const cafe = () => 'Bora tomar café!!!';
+const dormir = () => "Partiu dormir!!!";
 
-const coffe = () => "Bora tomar café";
+const doingThings = (callback) => callback();
 
-const sleep = () => "Partiu dormir";
 
-const doingThings = (funca) => funca();
-
-doingThings(wakeUp);
+console.log(doingThings(cafe));
