@@ -31,4 +31,8 @@ const verifyAges = (arrayPeople, minimunAge) => {
 
 };
 
+
+
+
 console.log(verifyAges(people,18));
+console.log(people.sort((a,b) => a.age - b.age));
