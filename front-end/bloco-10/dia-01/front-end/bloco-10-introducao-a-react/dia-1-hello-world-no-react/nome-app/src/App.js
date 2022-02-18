@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import Header from './Header';
 import './App.css';
 
 const task = (value) => {
@@ -7,7 +7,6 @@ const task = (value) => {
     value.map((elemento) => <li>{elemento}</li> )
   );
 }
-
 const array = [' Estudar ',' Ler ',' Cantar ',' Andar ',' Jogar '];
 
 
